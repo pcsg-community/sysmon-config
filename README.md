@@ -24,6 +24,10 @@ Christian Burkard @phantinuss
 Nasreddine Bencherchali @nas_bench
 
 -----
+**C) Installation (and make it secure)**
+
+
+-----
 **Z) Community**
 
 👩‍💻 Join Our Community: #PCSGCommunity
