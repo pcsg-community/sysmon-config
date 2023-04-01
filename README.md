@@ -29,6 +29,17 @@ Nasreddine Bencherchali @nas_bench
 -----
 **C) Installation (and make it secure)**
 
+0) We want to install sysmon a little different to 
+
+1.1) Download last version of Sysmon from [Microsoft](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) or [Sysinternals](https://download.sysinternals.com/files/Sysmon.zip).
+
+1.2) Download symon cofig file in here [(Download)](https://github.com/pcsg-community/sysmon-config/blob/main/sysmon-pcsg-daena-default.xml) and copy in you downloaded sysmon folder.
+
+2) Rename "sysmon64.exe" or "sysmon.exe" to another name, to hide it (with different name) in process list. for example we rename "sysmon64.exe" to "pcsgmon.exe"
+
+3.1) Run powershell or cmd with Admin Rights (Run as Admin) and change path to your sysmon folder
+
+3.2) command: pcsgmon.exe -accepteula -i "sysmon-pcsg-daena-default.xml" 
 
 -----
 **Z) Community**
