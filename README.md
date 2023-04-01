@@ -1,3 +1,6 @@
+![pcsg-community-full-logo-sysmon](https://user-images.githubusercontent.com/58658008/229286833-0e6b0600-afdc-4ff2-8ee0-021f49e80835.gif)
+
+
 **A) Summary**
 
 Sysmon has two configuration type:
