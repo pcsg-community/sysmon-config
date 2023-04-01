@@ -29,7 +29,7 @@ Nasreddine Bencherchali @nas_bench
 -----
 **C) Installation (and make it secure)**
 
-0) We want to install sysmon a little different to 
+0) We want to install sysmon a little different to protect it more. so we will change process name from "sysmon" to "pcsgmon", change drive name to "pcsgdrv" and change service name to "pcsgservice". follow the example:
 
 1.1) Download last version of Sysmon from [Microsoft](https://learn.microsoft.com/en-us/sysinternals/downloads/sysmon) or [Sysinternals](https://download.sysinternals.com/files/Sysmon.zip).
 
@@ -39,7 +39,15 @@ Nasreddine Bencherchali @nas_bench
 
 3.1) Run powershell or cmd with Admin Rights (Run as Admin) and change path to your sysmon folder
 
-3.2) command: pcsgmon.exe -accepteula -i "sysmon-pcsg-daena-default.xml" 
+3.2) Install command: pcsgmon.exe -accepteula -i "sysmon-pcsg-daena-default.xml" -d pcsgdrv
+
+4) After install, open "regedit.exe" and go to "Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\pcsgmon"
+
+Now change DisplayName: PCSG Service
+
+And change Description: Enables PCSG process live
+
+*also you can use these steps for your SIEM agent installation*
 
 -----
 **Z) Community**
