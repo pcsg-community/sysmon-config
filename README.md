@@ -22,10 +22,10 @@ Post by "Daena"
 
 👩‍💻 Join Our Community: #PCSGCommunity
 
-Telegram: t.me/persiancsgirls
+Telegram: [t.me/persiancsgirls](https://t.me/persiancsgirls)
 
-LinkedIn: linkedin.com/groups/12007305
+LinkedIn: [linkedin.com/groups/12007305](https://linkedin.com/groups/12007305)
 
-✍️ Post Owner: https://github.com/Daenaa
+✍️ Post Owner: [github.com/Daenaa](https://github.com/Daenaa)
 
 -----
