@@ -304,7 +304,7 @@
         <OriginalFileName name="technique_id=T1127,technique_name=Trusted Developer Utilities Proxy Execution" condition="is">dfsvc.exe</OriginalFileName>
         <OriginalFileName name="technique_id=T1569.002,technique_name=Service Execution" condition="is">dnscmd.exe</OriginalFileName>
         <OriginalFileName name="technique_id=T1564.004,technique_name=NTFS File Attributes" condition="is">esentutl.exe</OriginalFileName>
-        <OriginalFileName name="technique_id=T1105,technique_name=Ingress Tool Transfer" condition="is">expand</OriginalFileName>
+        <OriginalFileName name="technique_id=T1105,technique_name=Ingress Tool Transfer" condition="is">expand</OriginalFileName> <!-- by daena -->
         <OriginalFileName name="technique_id=T1218,technique_name=Signed Binary Proxy Execution" condition="is">extexport.exe</OriginalFileName>
         <OriginalFileName name="technique_id=T1564.004,technique_name=NTFS File Attributes" condition="is">extrac32.exe</OriginalFileName>
         <OriginalFileName name="technique_id=T1105,technique_name=Ingress Tool Transfer" condition="is">IEExec.exe</OriginalFileName>
@@ -738,7 +738,7 @@
         <Image condition="image">javaws.exe</Image> <!--Java: Monitor usage of vulnerable application and init from JAR files -->
         <Image name="technique_id=T1543.003,technique_name=Windows Service" condition="image">mmc.exe</Image> <!--Windows: -->
         <Image name="technique_id=T1218,technique_name=Signed Binary Proxy Execution" condition="image">msbuild.exe</Image> <!--Windows: [ https://www.hybrid-analysis.com/sample/a314f6106633fba4b70f9d6ddbee452e8f8f44a72117749c21243dc93c7ed3ac?environmentId=100 ] -->
-        <Image name="technique_id=T1016,technique_name=System Network Configuration Discovery" condition="image">nbtstat.exe</Image> <!--Windows: NetBIOS statistics, attackers use to enumerate local network -->
+        <Image name="technique_id=T1016,technique_name=System Network Configuration Discovery" condition="image">nbtstat.exe</Image> <!--Windows: NetBIOS statistics, attackers use to enumerate local network by da ena pc s g com -->
         <Image name="technique_id=T1057,technique_name=Process Discovery" condition="image">qprocess.exe</Image>  <!--Windows: [ https://www.first.org/resources/papers/conf2017/APT-Log-Analysis-Tracking-Attack-Tools-by-Audit-Policy-and-Sysmon.pdf ] -->
         <Image name="technique_id=T1057,technique_name=Process Discovery" condition="image">qwinsta.exe</Image> <!--Windows: Remotely query login sessions on a server or workstation-->
         <Image name="technique_id=T1218.009,technique_name=Regsvcs/Regasm" condition="image">regsvcs.exe</Image>
@@ -2654,4 +2654,4 @@
 <!-- last change: 2023/04/01 - config type: default                                                                         -->
 <!-- by: https://github.com/Daenaa                                                                                          -->
 <!-- get last update here: https://github.com/pcsg-community/sysmon-config/                                                 -->
-<!--                                                                                                                        -->
+<!-- ______________________________________________________________________________________________________________________ -->
