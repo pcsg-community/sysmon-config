@@ -17,11 +17,11 @@ Christian Burkard @phantinuss
 Nasreddine Bencherchali @nas_bench
 
 -----
-**Z) Community
+**Z) Community**
 
 👩‍💻 Join Our Community: #PCSGCommunity
 
-Post by [github.com/Daenaa](https://github.com/Daenaa)
+Post by Daena: [github.com/Daenaa](https://github.com/Daenaa)
 
 Telegram: [t.me/persiancsgirls](https://t.me/persiancsgirls)
 
