@@ -21,8 +21,11 @@ Post by "Daena"
 #threathunting #socanalyst #sysmon
 
 👩‍💻 Join Our Community: #PCSGCommunity
+
 Telegram: t.me/persiancsgirls
+
 LinkedIn: linkedin.com/groups/12007305
+
 ✍️ Post Owner: https://github.com/Daenaa
 
 -----
