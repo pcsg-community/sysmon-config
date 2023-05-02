@@ -1535,7 +1535,10 @@
         <TargetObject name="technique_id=T1547.001,technique_name=Registry Run Keys / Start Folder" condition="begin with">hkcu\software\microsoft\windows\currentversion\explorer\shell folders\common startup</TargetObject>
         <TargetObject name="technique_id=T1547.001,technique_name=Registry Run Keys / Start Folder" condition="begin with">hkcu\software\microsoft\windows\currentversion\explorer\shell folders\startup</TargetObject>
         <TargetObject name="technique_id=T1547.001,technique_name=Registry Run Keys / Start Folder" condition="begin with">hklm\software\microsoft\command processor\autorun</TargetObject>
-        <TargetObject name="technique_id=T1548.002,technique_name=Bypass User Access Control" condition="contains">\mscfile\shell\open\command</TargetObject>
+      <!--Daena-->
+        <TargetObject name="technique_id=T1547.014,technique_name=Active Setup" condition="begin with">HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components</TargetObject>
+	
+	<TargetObject name="technique_id=T1548.002,technique_name=Bypass User Access Control" condition="contains">\mscfile\shell\open\command</TargetObject>
         <TargetObject name="technique_id=T1548.002,technique_name=Bypass User Access Control" condition="contains">ms-settings\shell\open\command</TargetObject>
         <TargetObject name="technique_id=T1548.002,technique_name=Bypass User Access Control" condition="contains">Classes\exefile\shell\runas\command\isolatedCommand</TargetObject>
         <TargetObject name="technique_id=T1546.015,technique_name=Component Object Model Hijacking" condition="contains all">Software\Classes\CLSID;inprocserver32</TargetObject>
