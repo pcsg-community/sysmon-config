@@ -30,7 +30,12 @@ Christian Burkard @phantinuss
 
 Nasreddine Bencherchali @nas_bench
 
+## Update
 
+on May2,2023: 
+Update EventCode=12 and Sub.Technique 1547.014 about Boot or Logon Autostart Execution: Active Setup 
+Tactics: Persistence, Privilege Escalation
+Adversaries may abuse Active Setup by creating a key under HKLM\SOFTWARE\Microsoft\Active Setup\Installed Components\ and setting a malicious value for StubPath. This value will serve as the program that will be executed when a user logs into the computer.
 
 ## C) Installation (and make it secure)
 
