@@ -37,6 +37,8 @@ Christian Burkard @phantinuss
 
 Nasreddine Bencherchali @nas_bench
 
+@magicsword-io (LOLDrivers)
+
 ## Update
 
 on May2,2023: 
