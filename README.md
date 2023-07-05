@@ -3,6 +3,7 @@
 **The "PCS Girls Community" presents:**
 
 *  This config file contains Sysmon v15.0.
+*    And includes Event IDs 27,28,29.
  
 ## A) Summary
   
