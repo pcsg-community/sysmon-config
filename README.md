@@ -2,8 +2,10 @@
 
 **The "PCS Girls Community" presents:**
 
+*  This config file contains Sysmon v15.0.
+*  
 ## A) Summary
-
+  
 Sysmon has two configuration type:
 
 1- Targetting: These configuration's will collect logs of special events and useful for Threat Hunting
