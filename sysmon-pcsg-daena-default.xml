@@ -25,7 +25,7 @@
 <!-- last change: 2023/05/02 - config type: default                                                                         -->
 <!-- by: https://github.com/Daenaa                                                                                          -->
 <!-- get last update here: https://github.com/pcsg-community/sysmon-config/                                                 -->
-<!--                                                                                                                        -->
+<!--          .                                                                                                              -->
 <Sysmon schemaversion="4.82">
   <HashAlgorithms>*</HashAlgorithms>
   <!-- This now also determines the file names of the files preserved (String) -->
