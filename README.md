@@ -3,7 +3,7 @@
 **The "PCS Girls Community" presents:**
 
 *  This config file contains Sysmon v15.0.
-*  
+ 
 ## A) Summary
   
 Sysmon has two configuration type:
