@@ -14,7 +14,11 @@ Sysmon has two configuration type:
 
 I create this mixed configuration. I fork sysmon modular and then mix it with other fork's and my knowledge about detection and threat hunting.
 
-*Significant: This configuration contains the protection channel which is called "FileBlockExecutable" and is generated when Sysmon detects and blocks the creation of executable files , Event ID= 27.
+*Significant01: This configuration contains the protection channel which is called "FileBlockExecutable" and is generated when Sysmon detects and blocks the creation of executable files , Event ID= 27.
+
+ * Significant02:
+This configuration contains the protection channel  which is called "File Executable Detected" and is generated when Sysmon detects the creation of a new executable file (PE format) , Event ID= 29.
+
 
 *Note: This configuration will raise your events (5x of sysmon modular default configuration), so be careful and re-calculate your license, resource's data lifecycle policie's.*
 
