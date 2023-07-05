@@ -4,7 +4,9 @@
 
 *  This config file contains Sysmon v15.0.
 *    And includes Event IDs 27,28,29.
- 
+
+![pcsg-sysmon15](https://github.com/pcsg-community/sysmon-config/assets/58658008/1638fee0-9bbc-45b6-bb68-bae4713e403a)
+
 ## A) Summary
   
 Sysmon has two configuration type:
